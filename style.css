@@ -27,14 +27,8 @@ body {
     url(images/bg-pattern-bottom.svg);
   background-size: 623px, 623px;
   background-repeat: no-repeat, no-repeat;
-  background-position: -400px -200px, 200px 450px;
-}
-
-@media screen and (min-width: 1040px) {
-  body {
-    background-size: 978px, 978px;
-    background-position: -400px -400px, 550px 450px;
-  }
+  background-position: 190% -100%, -150% 180%;
+  
 }
 
 .card {
@@ -85,7 +79,7 @@ body {
   color: var(--Very-dark-desaturated-blue);
   letter-spacing: 1px;
   font-weight: 700;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .city {
@@ -96,3 +90,17 @@ body {
   font-weight: 400;
   margin-left: 1rem;
 }
+
+ @media screen and (min-width: 768px) {
+  body {
+    background-size: 978px, 978px;
+    background-position: -600px -500px, 300px 450px;
+  }
+}  
+
+@media screen and (min-width: 1040px) {
+  body {
+    background-size: 978px, 978px;
+    background-position: -125px -500px, 800px 500px;
+  }
+} */
